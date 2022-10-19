@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-image:linear-gradient(to bottom, #2CB798, #0BA986);
+}
+header{
+    background-color: #2CB798;
+    text-align: center;
+    margin: 15px;
+    border: 7px solid black;
+    border-radius: 70px;
+    box-shadow: 3px 2px 5px 2px;
+    padding: 26px;
+}
+h2{
+    text-align: center;
+}
+
+
+nav{
+    background-color: #7BDDC7;
+    margin: auto;
+    padding: 30px;
+    border-radius: 70px;
+    border: 20px, solid, black;
+    box-shadow: 5px 5px 5px 2px;
+}
+
+main{
+    margin: auto;
+    border: ;
+}
+
+article{
+    background-image: linear-gradient(to bottom, #6dddcd, white);
+    text-align: auto;
+    padding: 4px 4px 4px 4px;
+    border: 20px solid black;
+}
+
+a{
+    background-color: #7BDDC7;
+    text-decoration: underline;
+}
