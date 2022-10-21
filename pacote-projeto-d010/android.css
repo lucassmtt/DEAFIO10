@@ -28,11 +28,10 @@ nav{
 
 main{
     margin: auto;
-    border: ;
 }
 
 article{
-    background-image: linear-gradient(to bottom, #6dddcd, white);
+    background-image: linear-gradient(to bottom, #6dddcd, #AFEDE4);
     text-align: auto;
     padding: 4px 4px 4px 4px;
     border: 20px solid black;
