@@ -53,6 +53,7 @@ header > h1{
 header > p{
     color: white;
     text-shadow: 3px 3px 3px black;
+    text-align: center;
 }
 
 nav{
@@ -108,7 +109,7 @@ main a{
 
 main a:hover{
     text-decoration: underline;
-    color:antiquewhite;
+    color:red;
     
 }
 
@@ -122,8 +123,46 @@ article{
 
 }
 
+ul{
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+aside > p{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    text-indent: 0%;
+}
+
+ul > p {
+    display: none;
+}
+
+ul:hover > p{
+    display: block;
+    color:#3f7c27;
+    transition: 0.7s;
+    padding: 0px 30px;
+    text-indent: 0%;
+}
+
 footer{
     background-color: var(--cor0);
-    display: block;
-    margin:auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    color: #063d1e;
+    box-shadow: -4px -2px 3px black;
+}
+
+footer a {
+    color: #063d1e;
+}
+
+footer a:hover{
+    color:red;
+}
+
+abbr{
+    text-decoration: underline lightgreen;
 }
